@@ -160,7 +160,7 @@ START_TEST(test_2d_area_triangle)
     b.y = 10;
     c.x = 21;
     c.y = 5;
-    ck_assert(coord_2d_area_triangle(&a, &b) == 40.0);
+    ck_assert(coord_2d_area_triangle(&a, &b, &c) == 40.0);
 
 
 }
