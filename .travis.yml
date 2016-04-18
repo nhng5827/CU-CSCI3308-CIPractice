@@ -1,0 +1,11 @@
+sudo: required
+
+language: c
+
+before_install:
+  - test -n $CC && unset CC
+
+script: make dep && make test
+
+compiler:
+  - gcc
