@@ -145,6 +145,7 @@ END_TEST
 START_TEST(test_2d_area_triangle){
     coord_2d_t a;
     coord_2d_t b;
+    coord_2d_t c;
     //(ax(by-cy)+bx(cy-ay)+cx(ay-by))/2
     a.x = b.x = c.x = 0;
     a.y = b.y = c.y = 0;
